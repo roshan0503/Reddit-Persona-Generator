@@ -21,7 +21,7 @@ A powerful Python tool that analyzes Reddit user profiles and generates comprehe
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/reddit-persona-generator.git
+git clone https://github.com/roshan0503/Reddit-Persona-Generator.git
 cd reddit-persona-generator
 ```
 
