@@ -1,24 +1,3 @@
-#!/usr/bin/env python3
-"""
-Reddit User Persona Generator
-
-This script scrapes Reddit user data and generates a comprehensive persona
-using Groq Llama3 API analysis. It provides both command-line and Streamlit web interfaces.
-
-Requirements:
-    pip install praw groq streamlit requests argparse
-
-Usage:
-    # Web Interface
-    streamlit run reddit_persona.py
-    
-    # Command Line
-    python reddit_persona.py --url https://www.reddit.com/user/USERNAME/
-
-Author: AI Assistant
-Date: 2025
-"""
-
 import argparse
 import json
 import os
@@ -39,17 +18,7 @@ GROQ_API_KEY = "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"
 
 
 class RedditScraper:
-    """Handles Reddit data scraping using PRAW."""
-    
     def __init__(self, client_id: str, client_secret: str, user_agent: str):
-        """
-        Initialize Reddit scraper with API credentials.
-        
-        Args:
-            client_id: Reddit API client ID
-            client_secret: Reddit API client secret
-            user_agent: User agent string for API requests
-        """
         self.reddit = praw.Reddit(
             client_id=client_id,
             client_secret=client_secret,
@@ -57,18 +26,6 @@ class RedditScraper:
         )
     
     def extract_username_from_url(self, url: str) -> str:
-        """
-        Extract username from Reddit profile URL.
-        
-        Args:
-            url: Reddit profile URL
-            
-        Returns:
-            Username string
-            
-        Raises:
-            ValueError: If URL format is invalid
-        """
         patterns = [
             r'reddit\.com/u/([^/]+)',
             r'reddit\.com/user/([^/]+)',
@@ -83,16 +40,6 @@ class RedditScraper:
         raise ValueError(f"Invalid Reddit URL format: {url}")
     
     def scrape_user_data(self, username: str, limit: int = 100) -> Dict:
-        """
-        Scrape user posts and comments from Reddit.
-        
-        Args:
-            username: Reddit username
-            limit: Maximum number of posts/comments to scrape
-            
-        Returns:
-            Dictionary containing posts and comments data
-        """
         try:
             user = self.reddit.redditor(username)
             
@@ -148,28 +95,11 @@ class RedditScraper:
 
 
 class PersonaGenerator:
-    """Generates user personas using Groq Llama3 API."""
-    
     def __init__(self, api_key: str):
-        """
-        Initialize persona generator with Groq API key.
-        
-        Args:
-            api_key: Groq API key
-        """
         self.client = Groq(api_key=api_key)
         self.model = "llama3-70b-8192"
     
     def generate_persona(self, user_data: Dict) -> str:
-        """
-        Generate user persona using Groq Llama3.
-        
-        Args:
-            user_data: Dictionary containing user's posts and comments
-            
-        Returns:
-            Generated persona as formatted string
-        """
         # Prepare content for analysis
         content = self._prepare_content(user_data)
         
@@ -239,15 +169,6 @@ class PersonaGenerator:
             raise Exception(f"Error generating persona: {e}")
     
     def _prepare_content(self, user_data: Dict) -> str:
-        """
-        Prepare user content for analysis.
-        
-        Args:
-            user_data: User's posts and comments data
-            
-        Returns:
-            Formatted content string
-        """
         content = []
         
         # Add posts
@@ -266,16 +187,8 @@ class PersonaGenerator:
 
 
 class PersonaFileManager:
-    """Manages persona file operations."""
-    
     @staticmethod
     def ensure_output_directory() -> str:
-        """
-        Ensure output directory exists.
-        
-        Returns:
-            Path to output directory
-        """
         output_dir = "output"
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
@@ -283,16 +196,6 @@ class PersonaFileManager:
     
     @staticmethod
     def save_persona(persona: str, username: str) -> str:
-        """
-        Save persona to text file.
-        
-        Args:
-            persona: Generated persona text
-            username: Reddit username
-            
-        Returns:
-            Path to saved file
-        """
         output_dir = PersonaFileManager.ensure_output_directory()
         filename = f"{username}_persona.txt"
         filepath = os.path.join(output_dir, filename)
@@ -305,8 +208,6 @@ class PersonaFileManager:
 
 
 def streamlit_app():
-    """Streamlit web interface for the persona generator."""
-    
     st.set_page_config(
         page_title="Reddit User Persona Generator",
         page_icon="👤",
@@ -561,8 +462,6 @@ def command_line_interface():
 
 
 def main():
-    """Main function to determine interface type."""
-    
     # Check if running with Streamlit
     if len(sys.argv) > 1 and sys.argv[1] == "--streamlit":
         streamlit_app()
