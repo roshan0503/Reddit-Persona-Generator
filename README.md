@@ -37,7 +37,7 @@ GROQ_API_KEY=your_groq_api_key
 
 ### 📎 **Note (Regarding API Key Masking):**
 
-After clarifying with the company, I have submitted this assignment using the **`.env` file masking method** for storing API keys.  
+After clarifying with the company i.e BeyondChats, I have submitted this assignment using the **`.env` file masking method** for storing API keys.  
 This is an **industry-standard practice** to prevent exposing sensitive credentials in public repositories.
 
 
