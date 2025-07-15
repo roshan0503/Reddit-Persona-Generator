@@ -4,36 +4,40 @@ Here is the persona profile for Reddit user kojied:
 
 **1️⃣ Interests / Hobbies:**
 
-* Technology (Cited from: "Spacial tours with 3D map and 360˚ video" - Post [1b4yi15])
-* Gaming (Cited from: "Watching Edgerunners on the moon feels" - Post [1alx270])
-* Environmentalism (Cited from: "Tracking our individual impacts on the world through ESG ratings" - Post [15xgmea])
-* Finance (Cited from: "50k at a time?" - Post [flf90r])
-* Sports (Cited from: "Ok 5 more min with a 5pt deficit. I’m ready to be disappointed again" - Comment [m4av54h])
-* Travel (Cited from: "Cloisters, Noguchi museum, more art galleries" - Comment [m453mqo])
+* Technology (Cited from: "Spacial tours with 3D map and 360˚ video" - Post ID: 1b4yi15)
+* Gaming (Cited from: "Watching Edgerunners on the moon feels" - Post ID: 1alx270)
+* Environment and Sustainability (Cited from: "Tracking our individual impacts on the world through ESG ratings" - Post ID: 15xgmea)
+* Finance and Investing (Cited from: "50k at a time?" - Post ID: flf90r)
+* Sports (Cited from: "Ok 5 more min with a 5pt deficit. I’m ready to be disappointed again" - Comment ID: m4av54h)
+* Travel and Culture (Cited from: "Daytime bathhouse" - Comment ID: mexk4g8)
+* Food and Drink (Cited from: "Breakfast - Buvette" - Comment ID: mxxhvpf)
 
 **2️⃣ Personality Traits:**
 
-* Sarcastic (Cited from: "I was at the wrong party" - Post [1lykkqf])
-* Observant (Cited from: "It’s pretty hard to get consistent characters when they’re photorealistic tbh" - Comment [ml31o85])
-* Humorous (Cited from: "I wore a toga. she showed up in regular clothes" - Comment [mtnzw3v])
-* Frustrated (Cited from: "I’m not going to be disappointed anymore. I know how the warriors give us slight hope just to disappoint" - Comment [m45hcfu])
+* Sarcastic (Cited from: "I was at the wrong party" - Post ID: 1lykkqf)
+* Observant (Cited from: "I didn’t notice how demanding it was going to be" - Comment ID: mzopv8i)
+* Humorous (Cited from: "Chopper literally a 🦌" - Comment ID: m49mpg3)
+* Frustrated (Cited from: "Am I watching basketball with ads or ads with some basketball sprinkled in between" - Comment ID: m45d3eq)
+* Open-minded (Cited from: "I’m hoping people realize after this that it’s not a left or right issue, but rather those with wealth pitting those less fortunate against each other" - Comment ID: m454yr1)
 
 **3️⃣ Writing Style / Tone:**
 
-* Conversational (Cited from: "I feel that most people decide what to buy based on past experiences, gut feeling, or the mood of that day" - Post [15szxcx])
-* Inquisitive (Cited from: "What needs to happen for the league to review the inconsistencies of the refs?" - Post [1hcopxo])
-* Informative (Cited from: "【Theory】 What if we live in the void 800 century" - Post [18o4k0u])
+* Conversational (Cited from: "What’s a movie that best represents your childhood?" - Post ID: 1erotgn)
+* Inquisitive (Cited from: "Would you guys like to see Pokemon Go in AVP?" - Post ID: 1ajbkqm)
+* Exasperated (Cited from: "I’m not going to be disappointed anymore. I know how the warriors give us slight hope just to disappoint" - Comment ID: m45hcfu)
+* Helpful (Cited from: "You can ask it to alter its speed and complexity of the response if you ask it to" - Comment ID: m2nxxav)
 
 **4️⃣ Values / Beliefs:**
 
-* Importance of self-awareness (Cited from: "I feel that we needed a more direct way of getting ESG ratings into the mainstream" - Post [15xgmea])
-* Fairness in the economy (Cited from: "I’m hoping people realize after this that it’s not a left or right issue, but rather those with wealth pitting those less fortunate against each other" - Comment [m454yr1])
+* Importance of Sustainability (Cited from: "Tracking our individual impacts on the world through ESG ratings" - Post ID: 15xgmea)
+* Fairness and Equality (Cited from: "I’m hoping people realize after this that it’s not a left or right issue, but rather those with wealth pitting those less fortunate against each other" - Comment ID: m454yr1)
+* Self-Improvement (Cited from: "I feel that most people decide what to buy based on past experiences, gut feeling, or the mood of that day. But is there a way to better understand what we get our 'gratification' from, and track this?" - Post ID: 15szxcx)
 
 **5️⃣ Behavior on Reddit:**
 
 * Engages in discussions on various topics (Cited from: multiple comments across different subreddits)
-* Asks questions and seeks opinions (Cited from: multiple posts and comments)
-* Shares personal experiences and opinions (Cited from: multiple posts and comments)
-* Actively participates in online communities (Cited from: high number of comments and posts)
+* Asks questions and seeks opinions (Cited from: "What needs to happen for the league to review the inconsistencies of the refs?" - Post ID: 1hcopxo)
+* Shares personal experiences and opinions (Cited from: "I feel violated by intern season" - Post ID: 1lykkqf)
+* Provides helpful advice and insights (Cited from: "You can ask it to alter its speed and complexity of the response if you ask it to" - Comment ID: m2nxxav)
 
-Generated on: 2025-07-14 12:14:15
+Generated on: 2025-07-15 11:05:53

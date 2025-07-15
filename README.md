@@ -17,6 +17,30 @@ A powerful Python tool that analyzes Reddit user profiles and generates comprehe
 - Reddit API access (already configured)
 - Groq API access (already configured)
 
+## 🔐 API Keys - Masking via `.env` (Best Practice)
+
+For security best practices, all API keys are stored safely in a `.env` file and accessed through environment variables using `python-dotenv`. This ensures keys are never exposed in the public codebase.
+
+### ✅ Steps to Set Up `.env`:
+1️⃣ Create a `.env` file in the root directory  
+2️⃣ Add your API credentials in the following format:
+```bash
+REDDIT_CLIENT_ID=your_reddit_client_id
+REDDIT_CLIENT_SECRET=your_reddit_secret
+GROQ_API_KEY=your_groq_api_key
+```
+
+### ⚠️ Important:
+`.env` is already listed in `.gitignore`, so it won't be uploaded to GitHub accidentally.
+
+---
+
+### 📎 **Note (Regarding API Key Masking):**
+
+After clarifying with the company, I have submitted this assignment using the **`.env` file masking method** for storing API keys.  
+This is an **industry-standard practice** to prevent exposing sensitive credentials in public repositories.
+
+
 ## 🔧 Installation
 
 1. **Clone the repository:**

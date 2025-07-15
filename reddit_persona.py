@@ -10,11 +10,15 @@ import praw
 import requests
 import streamlit as st
 from groq import Groq
+from dotenv import load_dotenv
 
-# Hardcoded API credentials
-REDDIT_CLIENT_ID = "S50uoC8EWKHbZkIE9_C7FA"
-REDDIT_CLIENT_SECRET = "0nPKGJ9c4gInLf5NKG9iw2h2evSi_w"
-GROQ_API_KEY = "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"
+# Load environment variables from .env file
+load_dotenv()
+
+# Access API Keys from environment
+REDDIT_CLIENT_ID = os.getenv("REDDIT_CLIENT_ID")
+REDDIT_CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 
 class RedditScraper:
